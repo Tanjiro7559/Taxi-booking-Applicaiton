@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#FF12b6</color>
+    <color name="ColorPrimaryDark">#c880ff</color>
+    <color name="ColorAceent">#f2e712</color>
+    <color name="lavender">#8692f7</color>
+    <color name="white">#ECEDF4</color>
+    <color name="purple">#673AB7</color>
+    <color name="black">#0C0B0E</color>
+
+
+</resources>

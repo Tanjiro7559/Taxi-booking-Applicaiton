@@ -1,0 +1,119 @@
+"Firebase Background Thread #0@23265" prio=5 tid=0x10cb nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at jdk.internal.misc.Unsafe.park(Unsafe.java:-1)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	  at java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3466)
+	  at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3437)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1071)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1131)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	  at com.google.firebase.concurrent.CustomThreadFactory.lambda$newThread$0$com-google-firebase-concurrent-CustomThreadFactory(CustomThreadFactory.java:47)
+	  at com.google.firebase.concurrent.CustomThreadFactory$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+	  at java.lang.Thread.run(Thread.java:1012)
+
+"FinalizerDaemon@24162" daemon prio=5 tid=0x10c0 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	 blocks FinalizerDaemon@24162
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:386)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:210)
+	  - locked <0x5e69> (a java.lang.Object)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:231)
+	  at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:309)
+	  at java.lang.Daemons$Daemon.run(Daemons.java:145)
+	  at java.lang.Thread.<obsolete>(Thread.java:-1)
+
+"FinalizerWatchdogDaemon@24165" daemon prio=5 tid=0x10c1 nid=NA waiting
+  java.lang.Thread.State: WAITING
+	 blocks FinalizerWatchdogDaemon@24165
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:386)
+	  at java.lang.Object.wait(Object.java:524)
+	  at java.lang.Daemons$FinalizerWatchdogDaemon.sleepUntilNeeded(Daemons.java:428)
+	  - locked <0x5e6a> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+	  at java.lang.Daemons$FinalizerWatchdogDaemon.runInternal(Daemons.java:408)
+	  at java.lang.Daemons$Daemon.run(Daemons.java:145)
+	  at java.lang.Thread.<obsolete>(Thread.java:-1)
+
+"main@22943" prio=5 tid=0x2 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:337)
+	  at android.os.Looper.loopOnce(Looper.java:168)
+	  at android.os.Looper.loop(Looper.java:299)
+	  at android.app.ActivityThread.main(ActivityThread.java:8302)
+	  at java.lang.reflect.Method.invoke(Method.java:-1)
+	  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:556)
+	  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1037)
+
+"ReferenceQueueDaemon@24164" daemon prio=5 tid=0x10bf nid=NA waiting
+  java.lang.Thread.State: WAITING
+	 blocks ReferenceQueueDaemon@24164
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:386)
+	  at java.lang.Object.wait(Object.java:524)
+	  at java.lang.Daemons$ReferenceQueueDaemon.runInternal(Daemons.java:239)
+	  - locked <0x4533> (a java.lang.Class)
+	  at java.lang.Daemons$Daemon.run(Daemons.java:145)
+	  at java.lang.Thread.<obsolete>(Thread.java:-1)
+
+"16972-ScoutStateMachine@23337" prio=5 tid=0x10c6 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:337)
+	  at android.os.Looper.loopOnce(Looper.java:168)
+	  at android.os.Looper.loop(Looper.java:299)
+	  at android.os.HandlerThread.run(HandlerThread.java:67)
+
+"HeapTaskDaemon@24161" daemon prio=5 tid=0x10be nid=NA waiting
+  java.lang.Thread.State: WAITING
+	  at dalvik.system.VMRuntime.runHeapTasks(VMRuntime.java:-1)
+	  at java.lang.Daemons$HeapTaskDaemon.runInternal(Daemons.java:687)
+	  at java.lang.Daemons$Daemon.run(Daemons.java:145)
+	  at java.lang.Thread.<obsolete>(Thread.java:-1)
+
+"Thread-3@23952" prio=5 tid=0x10d0 nid=NA sleeping
+  java.lang.Thread.State: TIMED_WAITING
+	 blocks Thread-3@23952
+	  at java.lang.Thread.sleep(Thread.java:-1)
+	  at java.lang.Thread.sleep(Thread.java:450)
+	  - locked <0x5e6b> (a java.lang.Object)
+	  at java.lang.Thread.sleep(Thread.java:355)
+	  at com.example.cab.MainActivity$1.run(MainActivity.java:29)
+
+"Signal Catcher@24159" daemon prio=10 tid=0x10bc nid=NA waiting
+  java.lang.Thread.State: WAITING
+
+"ADB-JDWP Connection Control Thread@24160" daemon prio=0 tid=0x10bd nid=NA waiting
+  java.lang.Thread.State: WAITING
+
+"Jit thread pool worker thread 0@24163" daemon prio=5 tid=0x10c2 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Binder:16972_1@24166" prio=5 tid=0x10c3 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Binder:16972_2@24167" prio=5 tid=0x10c4 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Binder:16972_3@24168" prio=5 tid=0x10c5 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Profile Saver@22959" daemon prio=5 tid=0x10ca nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"RenderThread@23414" daemon prio=7 tid=0x10cf nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"Binder:16972_4@24087" prio=5 tid=0x10d1 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"hwuiTask1@24089" daemon prio=6 tid=0x10d2 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+
+"hwuiTask0@24090" daemon prio=6 tid=0x10d3 nid=NA runnable
+  java.lang.Thread.State: RUNNABLE
+

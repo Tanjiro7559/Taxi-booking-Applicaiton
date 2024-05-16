@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomersMapsActivity" >
+
+    <Button
+        android:id="@+id/customer_setting_btn"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="16dp"
+
+        android:text="Settings"
+        android:textColor="#F1E8E8"
+        android:textStyle="bold" />
+
+    <!-- Right Button -->
+    <Button
+        android:id="@+id/Customer_logout_btn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="LogOut"
+        android:textColor="#ECE4E4"
+        android:textStyle="bold" />
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/customer_setting_btn"
+        />
+
+    <Button
+        android:id="@+id/call_cab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map"
+        android:layout_marginTop="-49dp"
+        android:layout_marginEnd="16dp"
+        android:text="call a cabe"
+        android:textColor="#ECE4E4"
+        android:textStyle="bold" />
+
+</RelativeLayout>

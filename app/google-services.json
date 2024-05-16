@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269108629816",
+    "project_id": "cabapp-43aed",
+    "storage_bucket": "cabapp-43aed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269108629816:android:4a7a22d16b306d0799f1cd",
+        "android_client_info": {
+          "package_name": "com.example.cab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO-zzPU2OW-u-8sRZb1z4kqQsnVPku5hE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
